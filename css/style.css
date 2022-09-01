@@ -104,7 +104,10 @@ p {
         height: 15.8rem;
     }
 
-    footer {
-        font-size: ;
+    .attribution {
+        font-size: 0.75rem;
+    }
+    .attribution a{
+        font-size: inherit;
     }
 }
