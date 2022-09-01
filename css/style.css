@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 1rem;
+}
+
+:root{
+
+    /*\\\\\\\\\\\\\\\\\\ Colors \\\\\\\\\\\\\\\\\\\*/
+
+    --NeturalWhiteColor: hsl(0, 0%, 100%);/* - White */
+    --NeturalLightColor: hsl(212, 45%, 89%);/* - Light gray */
+    --PrimaryLightColor: hsl(220, 15%, 55%);/* - Grayish blue */
+    --PrimaryDarkColor: hsl(218, 44%, 22%);/* - Dark blue */
+
+    /*\\\\\\\\\\\\\\\\ Typography \\\\\\\\\\\\\\\\\\\\*/
+    
+    --FF :'Outfit', san-serif;
+    --FSize: 15px;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: var(--FF);
+    background-color: var(--NeturalLightColor);
+    line-height: 1.4;
+    position: relative;
+}
+
+.container{
+    background-color: var(--NeturalWhiteColor);
+    max-width: 18.5rem;
+    border-radius: 0.65rem;
+    box-shadow: 30px 35px 40px 6px rgba(0,0,0,0.3);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.container:hover{
+    box-shadow: 20px 45px 50px 6px rgba(0,0,0,0.4);
+    transition: 1s ease-in-out;
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+}
+
+
+.heroImg img{
+    padding: 0.8rem;
+    margin-top: 0.3rem;
+    width:  18rem;
+    height: 17.8rem;
+    border-radius: 1.25rem;
+}
+.heroImg:hover{
+    transform: scale(1.02);
+    transition: 8ms ease;
+    overflow: hidden;
+}
+
+.heroInfo{
+    max-width: 14.45rem;
+    text-align: center;
+    margin: 0.4rem 0 1rem 0;
+}
+/*\\\\\\\\\\\\\\\\ Typography \\\\\\\\\\\\\\\\\\\\*/
+h1{
+    font-weight: 700;
+    font-size: 1.15rem;
+    color:var(--PrimaryDarkColor);
+}
+p{
+    font-size: 0.84rem;
+    font-weight: 400;
+    padding: 0.85rem 0;
+    word-spacing: 0.1rem;
+    color:var(--PrimaryLightColor);
+}
+@media screen and (max-width: 375px) {
+    .container{
+        max-width: 16rem;
+    } 
+    .heroImg img{
+        width:  16rem;
+        height: 15.8rem;
+    }
+}
+
