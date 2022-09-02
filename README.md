@@ -27,11 +27,11 @@ Mobile view:
 - Flexbox
 - Responsive Design
 ### What I learned
-I have learn how to and make content responsive. 
+I have learn how use transform and transition property and make content responsive. 
 ### Useful resources
 - W3 Schools 
-  - [Flex](https://www.w3schools.com/css/css3_flexbox.asp) 
-  - [Grid](https://www.w3schools.com/css/css_grid.asp)
+  - [Transition](https://www.w3schools.com/css/css3_transitions.asp) 
+  - [Transform](https://www.w3schools.com/cssref/css3_pr_transform.asp)
 ## Author
 - Github - [manujayakumar](https://github.com/manujayakumar)
 - Frontend Mentor - [manujayakumar](https://www.frontendmentor.io/profile/manujayakumar)
