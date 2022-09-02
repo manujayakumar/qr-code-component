@@ -13,14 +13,14 @@
 ### ScreenShot
 Desktop view:
 
-![]()
+![](https://github.com/manujayakumar/qr-code-component/blob/main/screenshot/desktop-view.PNG)
 
 Mobile view:
 
-![]()
+![](https://github.com/manujayakumar/qr-code-component/blob/main/screenshot/mobile-view.PNG)
 ### Links
 - Solution URL: [Frontend Mentor Solution]()
-- Live Site URL: [Live Site at Vercel]()
+- Live Site URL: [Live Site at Vercel](https://qr-code-component-steel-nu.vercel.app/)
 ## My process
 ### Built with
 - Semantic HTML5 markup
