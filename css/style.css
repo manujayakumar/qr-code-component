@@ -46,11 +46,13 @@ body {
     align-items: center;
     flex-direction: column;
     justify-content: center;
+    overflow: hidden;
+    transition: 1s ease-in-out;
 }
 
 .container:hover {
     box-shadow: 20px 45px 50px 6px rgba(0, 0, 0, 0.4);
-    transition: 1s ease-in-out;
+    
 }
 
 footer {
@@ -58,19 +60,18 @@ footer {
     bottom: 0;
 }
 
-
 .heroImg img {
     padding: 0.8rem;
     margin-top: 0.3rem;
     width: 18rem;
     height: 17.8rem;
     border-radius: 1.25rem;
+    transition:.4s ease-in;
+    cursor: pointer;
 }
 
-.heroImg:hover {
-    transform: scale(1.02);
-    transition: 8ms ease;
-    overflow: hidden;
+.heroImg:hover img{
+    transform: scale(1.2);   
 }
 
 .heroInfo {
